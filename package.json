@@ -1,0 +1,15 @@
+{
+  "name": "smart_contact_manager",
+  "version": "1.0.0",
+  "description": "This is a spring boot project for managing contacts of a user",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Utkarsh kumar verma",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.4.4"
+  }
+}

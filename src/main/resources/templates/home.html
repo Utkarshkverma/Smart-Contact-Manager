@@ -1,22 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" th:replace="~{base :: parent(~{:: #content})}">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <style>
-        .home{
-            background-color: #dc4e4e;
-            margin: auto;
-            width: 50%;
-            padding: 30px;
-        }
-    </style>
+    <title>Home</title>
 </head>
 <body>
-    <div class="home">
-        <h1 data-th-text="${name}">Home</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque expedita possimus nihil id, eaque ullam aliquam iure, quasi voluptatum beatae cupiditate saepe aspernatur quam voluptatibus eos quisquam dolor fugiat dolorem totam iste rem est? Aliquid dolorem iure deleniti molestiae fuga, odit ducimus hic, sunt itaque at error laudantium non, id eligendi quasi magni autem fugiat vero. Accusamus ullam eius tempore quos blanditiis nostrum ipsum debitis soluta voluptas tenetur possimus voluptatem aperiam libero ducimus vitae perferendis, et reiciendis nemo odit recusandae minus aliquam cum deleniti! Quidem in voluptas unde porro, vel laboriosam officiis magnam dolorem maiores quam vero neque consequuntur labore?</p>
-    </div>
+    <p id="content">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Neque quos cum voluptas suscipit repellat.
+    </p>
 </body>
 </html>
